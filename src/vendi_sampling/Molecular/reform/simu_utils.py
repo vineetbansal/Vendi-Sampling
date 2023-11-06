@@ -7,8 +7,8 @@ from abc import ABC, abstractmethod
 from typing import List, Tuple
 
 import numpy as np
-import simtk.openmm as omm
-import simtk.unit as unit
+import openmm as omm
+import openmm.unit as unit
 
 from reform.omm import OMMTReplicas
 from reform.omm_replicated import OMMTReplicas_replicated

@@ -3,7 +3,7 @@ import torch
 import matplotlib.pyplot as plt
 from typing import Callable
 
-from vendi import log_score
+from vendi_sampling.Model_Systems.vendi import log_score
 import pickle as pkl
 
 
