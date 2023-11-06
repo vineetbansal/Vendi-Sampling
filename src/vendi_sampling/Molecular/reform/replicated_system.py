@@ -8,8 +8,8 @@ Yaoyi Chen added the CHARMM support and integrated it to the `reform` package.
 import copy
 import numpy as np
 
-from simtk import unit
-from simtk.openmm import (
+from openmm import unit
+from openmm import (
     openmm,
     System,
     LocalCoordinatesSite,
@@ -27,7 +27,7 @@ from simtk.openmm import (
     CustomGBForce
 )
 
-from simtk.openmm.app import Topology
+from openmm.app import Topology
 
 ## dropping dependencies on openmmsystems
 # from openmmsystems.util import OpenMMSystemsException
